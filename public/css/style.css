@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#stringForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px; /* Adjust as needed to push it towards the bottom */
+}
+
+input[type="text"] {
+    margin-bottom: 10px; /* Space between text inputs and the button */
+}
