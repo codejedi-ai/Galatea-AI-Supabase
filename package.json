@@ -4,8 +4,8 @@
   "description": "Shared Supabase backend for Galatea AI applications",
   "private": true,
   "scripts": {
-    "start": "supabase start",
-    "stop": "supabase stop",
+    "start": "npx supabase start >config.md",
+    "stop": "npx supabase stop",
     "status": "supabase status",
     "reset": "supabase db reset",
     "migrate": "supabase db push",
